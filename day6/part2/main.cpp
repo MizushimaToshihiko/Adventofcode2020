@@ -59,7 +59,7 @@ int main(){
 
     if(vus.size() > 1) {
         result = intersection(vus[0],vus[1]);
-        for(int i=0;i<vus.size()-1;i++) {
+        for(int i=0;i<vus.size();i++) {
             // print_set(vus[i]);
             // print_set(vus[i+1]);
             result = intersection(vus[i],result);
